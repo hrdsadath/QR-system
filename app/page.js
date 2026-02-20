@@ -50,14 +50,15 @@ export default function Home() {
 
       {product && (
         <div style={{ marginTop: 30 }}>
-          <img
+          {/* <img
             src={product.image}
             alt="product"
             width="200"
-          />
+          /> */}
 
           <h2>{product.name}</h2>
-          <h3>₹ {product.price}</h3>
+          <h3>₹ {product.sp}</h3>
+          <h3>₹ {product.cp}</h3>
           <p>{product.category}</p>
           <p>{product.description}</p>
           <p>Stock: {product.stock}</p>
