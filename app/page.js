@@ -57,8 +57,8 @@ export default function Home() {
           /> */}
 
           <h2>{product.name}</h2>
-          <h3>₹ {product.sp}</h3>
-          <h3>₹ {product.cp}</h3>
+          <h3>₹sp {product.sp}</h3>
+          <h3>₹cp {product.cp}</h3>
           <p>{product.category}</p>
           <p>{product.description}</p>
           <p>Stock: {product.stock}</p>
